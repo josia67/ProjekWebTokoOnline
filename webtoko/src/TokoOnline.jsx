@@ -4,33 +4,30 @@ import React from "react";
 const PRODUCTS = [
   {
     id: 1,
-    name: "Smartphone Pro Max 128GB",
-    category: "HP",
-    price: "Rp 12.999.000",
+    name: "Headphone JBL",
+    category: "Audio",
+    price: "Rp 750.000",
     rating: "4.8",
-    image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&auto=format&fit=crop&q=60",
-    description: "Layar OLED 120Hz dengan kamera kualitas tinggi.",
+    image: "Headphone JBL.jpg",
+    description: "Headphone berkualitas tinggi dengan suara yang jernih.",
   },
   {
     id: 2,
-    name: "Laptop Ultra Slim Core i7",
-    category: "Laptop",
-    price: "Rp 15.499.000",
+    name: "Keyboard Noir",
+    category: "Computer",
+    price: "Rp 950.000",
     rating: "4.9",
-    image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format&fit=crop&q=60",
-    description: "Desain tipis, ringan, daya tahan baterai hingga 15 jam.",
+    image: "Keyboard Noir.jpg",
+    description: "Keyboard dengan pencahayaan RGB dan tampilan gagah",
   },
   {
     id: 3,
-    name: "Wireless Headphone ANC",
-    category: "Audio",
-    price: "Rp 2.499.000",
+    name: "Laptop Asus ROG Strix",
+    category: "Computer",
+    price: "Rp 37.000.000",
     rating: "4.7",
-    image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60",
-    description: "Fitur peredam bising aktif dengan suara bass mendalam.",
+    image: "Laptop Asus ROG Strix.jpg",
+    description: "Laptop gaming dengan performa tinggi",
   },
   {
     id: 4,
@@ -60,7 +57,7 @@ export default function App() {
       {/* NAVBAR */}
       <header>
         <div className="nav-container">
-          <div className="logo">Shopio</div>
+          <div className="logo">DiJotosTech</div>
           <div className="search-wrapper">
             <input
               type="text"
