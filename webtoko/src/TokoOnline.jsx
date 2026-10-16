@@ -31,23 +31,22 @@ const PRODUCTS = [
   },
   {
     id: 4,
-    name: "Smartwatch Fitness Series",
-    category: "Wearable",
-    price: "Rp 1.899.000",
+    name: "Mouse Razer Viper V3 Pro",
+    category: "Computer",
+    price: "Rp 3.200.000",
     rating: "4.6",
-    image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop&q=60",
-    description: "Lacak detak jantung, pola tidur, dan aktivitas olahraga.",
+    image: "MouseRazerViper.jpg",
+    description: "Mouse gaming ultra-lightweight dengan sensor presisi tinggi.",
   },
   {
     id: 5,
-    name: 'Smart TV 4K Ultra HD 50"',
-    category: "TV",
-    price: "Rp 6.299.000",
+    name: "ASUS ROG Astral GeForce RTX 5090",
+    category: "Computer",
+    price: "Rp 122.600.000",
     rating: "4.8",
-    image:
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=500&auto=format&fit=crop&q=60",
-    description: "Pengalaman menonton sinematik dengan visual tajam.",
+    image: "RTX5090.jpg",
+    description:
+      "Kartu grafis monster untuk performa gaming 4K dan rendering berat.",
   },
 ];
 
@@ -61,7 +60,7 @@ export default function App() {
           <div className="search-wrapper">
             <input
               type="text"
-              placeholder="Cari produk elektronik..."
+              placeholder="Cari produk"
               className="search-input"
             />
           </div>
