@@ -1,6 +1,4 @@
-import React from "react";
-
-// Data 5 Produk Elektronik
+// Data Produk
 const PRODUCTS = [
   {
     id: 1,
@@ -9,7 +7,7 @@ const PRODUCTS = [
     price: "Rp 750.000",
     rating: "4.8",
     image: "Headphone JBL.jpg",
-    description: "Headphone berkualitas tinggi dengan suara yang jernih.",
+    description: "Headphone berkualitas tinggi dengan suara yang jernih",
   },
   {
     id: 2,
@@ -36,7 +34,7 @@ const PRODUCTS = [
     price: "Rp 3.200.000",
     rating: "4.6",
     image: "MouseRazerViper.jpg",
-    description: "Mouse gaming ultra-lightweight dengan sensor presisi tinggi.",
+    description: "Mouse gaming dengan sensor presisi tinggi",
   },
   {
     id: 5,
@@ -45,8 +43,16 @@ const PRODUCTS = [
     price: "Rp 122.600.000",
     rating: "4.8",
     image: "RTX5090.jpg",
-    description:
-      "Kartu grafis monster untuk performa gaming 4K dan rendering berat.",
+    description: "Kartu grafis dengan performa gaming 4K dan rendering berat",
+  },
+  {
+    id: 6,
+    name: "Speaker",
+    category: "Audio",
+    price: "Rp 600.000",
+    rating: "4.8",
+    image: "Speaker JBL.jpg",
+    description: "Speaker dengan kualitas suara yang luar biasa",
   },
 ];
 
