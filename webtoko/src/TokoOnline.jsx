@@ -47,7 +47,7 @@ const PRODUCTS = [
   },
   {
     id: 6,
-    name: "Speaker",
+    name: "Speaker JBL",
     category: "Audio",
     price: "Rp 600.000",
     rating: "4.8",
