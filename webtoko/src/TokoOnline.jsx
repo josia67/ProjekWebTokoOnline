@@ -65,7 +65,7 @@ export default function TokoOnline() {
           </section>
 
           <h2 className="section-title" style={{ marginTop: "1.5rem" }}>
-            Produk Populer
+            Produk Tersedia
           </h2>
 
           {filteredProducts.length === 0 ? (
@@ -313,6 +313,72 @@ export default function TokoOnline() {
           </div>
         </main>
       )}
+
+      {/* ================= 6. FOOTER ================= */}
+      <footer className="footer">
+        <div className="container footer-container">
+          {/* Kolom 1: Profil Toko */}
+          <div className="footer-col">
+            <h3 className="footer-logo">DiJotosTech</h3>
+            <p className="footer-desc">
+              Pusat belanja gadget terpercaya dengan harga terbaik dan garansi
+              resmi.
+            </p>
+          </div>
+
+          {/* Kolom 2: Navigasi Cepat */}
+          <div className="footer-col">
+            <h4>Navigasi</h4>
+            <ul className="footer-links">
+              <li>
+                <button onClick={() => setCurrentView("home")}>Beranda</button>
+              </li>
+              <li>
+                <button onClick={() => setCurrentView("cart")}>
+                  Keranjang Belanja
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          {/* Kolom 3: Sosial Media */}
+          <div className="footer-col">
+            <h4>Ikuti Kami</h4>
+            <div className="social-links">
+              <a
+                href="https://www.instagram.com/dito.dito.dito.dito/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📸 Instagram Dito
+              </a>
+              <a
+                href="https://www.instagram.com/josia_sianturi/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📸 Instagram Josia
+              </a>
+            </div>
+          </div>
+
+          {/* Kolom 4: Hubungi Kami */}
+          <div className="footer-col">
+            <h4>Hubungi Kami</h4>
+            <p>📧 @dijotostech@gmail.com</p>
+            <p>📞 +62 877 1474 8345</p>
+            <p>📞 +62 878 1805 8942</p>
+            <p>📍 Yogyakarta, Indonesia</p>
+          </div>
+        </div>
+
+        {/* Hak Cipta / Copyright */}
+        <div className="footer-bottom">
+          <p>
+            &copy; {new Date().getFullYear()} DiJotosTech. All rights reserved.
+          </p>
+        </div>
+      </footer>
 
       {/* TOAST NOTIFIKASI */}
       {notification && <div className="toast-notification">{notification}</div>}
